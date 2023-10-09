@@ -1,4 +1,5 @@
 import React from 'react'
+import { ArrowRight } from 'react-bootstrap-icons'
 
 const Services = () => {
   return (
@@ -17,9 +18,9 @@ const Services = () => {
               <div className="icon">
                 <i className="bi bi-activity"></i>
               </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <h3>Spiritual Engagement</h3>
+              <p>We dream to see the Burundian community in Southern Africa living the meaningful life that we find from fellowship and having a relationship with God through our Lord and saviour, Jesus Christ</p>
+              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
             </div>
           </div>
 
@@ -28,9 +29,9 @@ const Services = () => {
               <div className="icon">
                 <i className="bi bi-broadcast"></i>
               </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <h3>Economic Empowerment</h3>
+              <p>We encourage ourselves to contribute in the economic developmennt of the countries as immigrants or refugges and asylum seekers.</p>
+              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
             </div>
           </div>
 
@@ -39,9 +40,9 @@ const Services = () => {
               <div className="icon">
                 <i className="bi bi-easel"></i>
               </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <h3>Professional Development</h3>
+              <p>We focus primarily on a Burundian network to ensure that our fellow country men are in contact and grow professionally and socially through collaborative networking activities and mutual education opportunities through the sharing of livid experiences.</p>
+              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
             </div>
           </div>
 
@@ -50,34 +51,11 @@ const Services = () => {
               <div className="icon">
                 <i className="bi bi-bounding-box-circles"></i>
               </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
+              <h3>Community engagement</h3>
+              <p>Allows individuals and communities to come together to identify the problem they wish to address, develop collective solutions and choose their own means of action.</p>
+              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
             </div>
           </div>
-
-          <div className="col-lg-4 col-md-6">
-            <div className="service-item position-relative">
-              <div className="icon">
-                <i className="bi bi-calendar4-week"></i>
-              </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6">
-            <div className="service-item position-relative">
-              <div className="icon">
-                <i className="bi bi-chat-square-text"></i>
-              </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" className="readmore stretched-link">Read more <i className="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
         </div>
 
       </div>

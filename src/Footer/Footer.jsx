@@ -1,4 +1,5 @@
 import React from 'react'
+import { Twitter, Facebook, Instagram, Linkedin } from 'react-bootstrap-icons'
 
 const Footer = () => {
   return (    
@@ -12,10 +13,10 @@ const Footer = () => {
         </a>
         <p>A global Burundian Organization in diaspora. It creates a platform to engage Burundians and organizations through spiritual fellowship, economic empowerment, professional development and community engagement.</p>
         <div class="social-links d-flex mt-4">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="twitter"><Twitter class="bi bi-twitter"></Twitter></a>
+          <a href="#" class="facebook"><Facebook class="bi bi-facebook"></Facebook></a>
+          <a href="#" class="instagram"><Instagram class="bi bi-instagram"></Instagram></a>
+          <a href="#" class="linkedin"><Linkedin class="bi bi-linkedin"></Linkedin></a>
         </div>
       </div>
 
