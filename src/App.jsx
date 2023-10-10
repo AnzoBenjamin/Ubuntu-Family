@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import Nav from './components/Nav/Nav'
 import Hero from './components/Home/Hero'
 import Home from './components/Home/Home'

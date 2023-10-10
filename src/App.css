@@ -21,6 +21,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #02794f;
+  --color-primary-dark:#026d47;
   --color-secondary: #df3a36;
   --color-white: #fff;
 }
@@ -401,7 +402,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: var(--color-primary);
   }
 
   .navbar .dropdown ul {
@@ -750,6 +751,7 @@ section {
 
 .clients .swiper-slide img {
   transition: 0.3s;
+  height: 4.8rem;
 }
 
 .clients .swiper-slide img:hover {
@@ -936,6 +938,14 @@ section {
 .services {
   padding: 60px 0;
 }
+.img-icon{
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+
+}
 
 .services .service-item {
   padding: 40px;
@@ -949,10 +959,14 @@ section {
   height: 48px;
   position: relative;
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.services .service-item .icon i {
-  color: var(--color-default);
+.services .service-item .icon img {
+  color: var(--color-primary);
+  stroke: var(--color-primary);
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
@@ -966,9 +980,7 @@ section {
   width: 100%;
   background: #eeeeee;
   border-radius: 50px;
-  z-index: 1;
-  top: 10px;
-  right: -20px;
+  z-index: 0;
   transition: 0.3s;
 }
 
@@ -1964,7 +1976,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: var(--color-primary-dark);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1996,7 +2008,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: var(--color-primary-dark);
 }
 
 .hero .icon-box:hover .title a,

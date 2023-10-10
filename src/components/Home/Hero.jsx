@@ -8,11 +8,11 @@ const Hero = () => {
         <div className="row gy-5" data-aos="fade-in">
           <div className="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
             <h2>
-              Welcome to <span>Impact</span>
+              Welcome to <span>Ubuntu family</span>
             </h2>
             <p>
-              Sed autem laudantium dolores. Voluptatem itaque ea consequatur
-              eveniet. Eum quas beatae cumque eum quaerat.
+              We are an organization based in Capetown. Our goal is to prepare
+              Burundian people to thrive.
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
               <a href="#about" class="btn-get-started">
@@ -29,9 +29,9 @@ const Hero = () => {
           </div>
           <div className="col-lg-6 order-1 order-lg-2">
             <img
-              src="assets/img/hero-img.svg"
+              src="/ubuntu-1.jpg"
               className="img-fluid"
-              alt=""
+              alt="Hero img"
               data-aos="zoom-out"
               data-aos-delay="100"
             />
@@ -41,7 +41,7 @@ const Hero = () => {
 
       <div className="icon-boxes position-relative">
         <div className="container position-relative">
-          <div className="row gy-4 mt-5">
+          <div className="row gy-4 mt-5 ">
             <div
               className="col-xl-3 col-md-6"
               data-aos="fade-up"
@@ -53,7 +53,7 @@ const Hero = () => {
                 </div>
                 <h4 className="title">
                   <a href="" className="stretched-link">
-                    Lorem Ipsum
+                    Ubuntu ways
                   </a>
                 </h4>
               </div>
@@ -70,41 +70,7 @@ const Hero = () => {
                 </div>
                 <h4 className="title">
                   <a href="" className="stretched-link">
-                    Sed ut perspiciatis
-                  </a>
-                </h4>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-3 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div className="icon-box">
-                <div className="icon">
-                  <GeoAlt className="bi bi-geo-alt"></GeoAlt>
-                </div>
-                <h4 className="title">
-                  <a href="" className="stretched-link">
-                    Magni Dolores
-                  </a>
-                </h4>
-              </div>
-            </div>
-
-            <div
-              className="col-xl-3 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div className="icon-box">
-                <div className="icon">
-                  <Command className="bi bi-command"></Command>
-                </div>
-                <h4 className="title">
-                  <a href="" className="stretched-link">
-                    Nemo Enim
+                    Ubuntu Kitchens
                   </a>
                 </h4>
               </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowRight } from 'react-bootstrap-icons'
+import { ArrowRight, Cash, People, PersonWorkspace, UniversalAccess } from 'react-bootstrap-icons'
 
 const Services = () => {
   return (
@@ -16,7 +16,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6">
             <div className="service-item  position-relative">
               <div className="icon">
-                <i className="bi bi-activity"></i>
+                <UniversalAccess className="bi bi-activity img-icon"></UniversalAccess>
               </div>
               <h3>Spiritual Engagement</h3>
               <p>We dream to see the Burundian community in Southern Africa living the meaningful life that we find from fellowship and having a relationship with God through our Lord and saviour, Jesus Christ</p>
@@ -27,7 +27,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6">
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-broadcast"></i>
+                <Cash className="bi bi-broadcast img-icon"></Cash>
               </div>
               <h3>Economic Empowerment</h3>
               <p>We encourage ourselves to contribute in the economic developmennt of the countries as immigrants or refugges and asylum seekers.</p>
@@ -38,7 +38,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6">
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-easel"></i>
+                <PersonWorkspace className="bi bi-easel img-icon"></PersonWorkspace>
               </div>
               <h3>Professional Development</h3>
               <p>We focus primarily on a Burundian network to ensure that our fellow country men are in contact and grow professionally and socially through collaborative networking activities and mutual education opportunities through the sharing of livid experiences.</p>
@@ -49,7 +49,7 @@ const Services = () => {
           <div className="col-lg-4 col-md-6">
             <div className="service-item position-relative">
               <div className="icon">
-                <i className="bi bi-bounding-box-circles"></i>
+                <People className="bi bi-bounding-box-circles img-icon"></People>
               </div>
               <h3>Community engagement</h3>
               <p>Allows individuals and communities to come together to identify the problem they wish to address, develop collective solutions and choose their own means of action.</p>

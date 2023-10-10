@@ -6,11 +6,11 @@ import { ChevronDown, List, X } from "react-bootstrap-icons";
 const Nav = () => {
   return (
     <>
-    <TopNav/>
+      <TopNav />
       <header id="header" className="header d-flex align-items-center">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="index.html" className="logo d-flex align-items-center">
-            <Logo/>
+            <Logo />
           </a>
           <nav id="navbar" className="navbar">
             <ul>
@@ -31,49 +31,6 @@ const Nav = () => {
               </li>
               <li>
                 <a href="blog.html">Blog</a>
-              </li>
-              <li className="dropdown">
-                <a href="#">
-                  <span>Drop Down</span>{" "}
-                  <ChevronDown className="bi bi-chevron-down dropdown-indicator"></ChevronDown>
-                </a>
-                <ul>
-                  <li>
-                    <a href="#">Drop Down 1</a>
-                  </li>
-                  <li className="dropdown">
-                    <a href="#">
-                      <span>Deep Drop Down</span>{" "}
-                      <ChevronDown className="bi bi-chevron-down dropdown-indicator"></ChevronDown>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="#">Deep Drop Down 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 2</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 3</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 4</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 5</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 2</a>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 3</a>
-                  </li>
-                  <li>
-                    <a href="#">Drop Down 4</a>
-                  </li>
-                </ul>
               </li>
               <li>
                 <a href="#contact">Contact</a>
