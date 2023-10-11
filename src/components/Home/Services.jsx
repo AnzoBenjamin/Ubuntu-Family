@@ -1,66 +1,67 @@
-import React from 'react'
-import { ArrowRight, Cash, People, PersonWorkspace, UniversalAccess } from 'react-bootstrap-icons'
+import React from "react";
+import {
+  ArrowRight,
+  Cash,
+  People,
+  PersonWorkspace,
+  UniversalAccess,
+  CupHotFill,
+} from "react-bootstrap-icons";
 
 const Services = () => {
   return (
     <section id="services" className="services sections-bg">
       <div className="container" data-aos="fade-up">
-
         <div className="section-header">
           <h2>Our Services</h2>
-          <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop</p>
+          <p>
+            Engaging Burundians and Organizations through Spiritual Fellowship,
+            Economic Empowerment, Professional development and community
+            engagement.{" "}
+          </p>
         </div>
 
-        <div className="row gy-4" data-aos="fade-up" data-aos-delay="100">
-
+        <div
+          className="row gy-4 justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <div className="col-lg-4 col-md-6">
             <div className="service-item  position-relative">
               <div className="icon">
-                <UniversalAccess className="bi bi-activity img-icon"></UniversalAccess>
+                <Cash className="bi bi-activity img-icon"></Cash>
               </div>
-              <h3>Spiritual Engagement</h3>
-              <p>We dream to see the Burundian community in Southern Africa living the meaningful life that we find from fellowship and having a relationship with God through our Lord and saviour, Jesus Christ</p>
-              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
+              <h3>Ubuntu Ways</h3>
+              <p>
+                Intervening in the money exchange and transfer for Burundians
+                who are residing South Africa.
+              </p>
+              <a href="/ubuntu-ways" className="readmore stretched-link">
+                Read more{" "}
+                <ArrowRight className="bi bi-arrow-right"></ArrowRight>
+              </a>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6">
             <div className="service-item position-relative">
               <div className="icon">
-                <Cash className="bi bi-broadcast img-icon"></Cash>
+                <CupHotFill className="bi bi-broadcast img-icon"></CupHotFill>
               </div>
-              <h3>Economic Empowerment</h3>
-              <p>We encourage ourselves to contribute in the economic developmennt of the countries as immigrants or refugges and asylum seekers.</p>
-              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6">
-            <div className="service-item position-relative">
-              <div className="icon">
-                <PersonWorkspace className="bi bi-easel img-icon"></PersonWorkspace>
-              </div>
-              <h3>Professional Development</h3>
-              <p>We focus primarily on a Burundian network to ensure that our fellow country men are in contact and grow professionally and socially through collaborative networking activities and mutual education opportunities through the sharing of livid experiences.</p>
-              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6">
-            <div className="service-item position-relative">
-              <div className="icon">
-                <People className="bi bi-bounding-box-circles img-icon"></People>
-              </div>
-              <h3>Community engagement</h3>
-              <p>Allows individuals and communities to come together to identify the problem they wish to address, develop collective solutions and choose their own means of action.</p>
-              <a href="#" className="readmore stretched-link">Read more <ArrowRight className="bi bi-arrow-right"></ArrowRight></a>
+              <h3>Ubuntu Kitchens</h3>
+              <p>
+                Catering our East African recipes with the TASTE OF NYUMBANI.
+              </p>
+              <a href="/ubuntu-kitchens" className="readmore stretched-link">
+                Read more{" "}
+                <ArrowRight className="bi bi-arrow-right"></ArrowRight>
+              </a>
             </div>
           </div>
         </div>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

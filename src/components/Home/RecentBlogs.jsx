@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Blog = () => {
+const RecentBlog = () => {
   return (
     <section id="recent-posts" class="recent-posts sections-bg">
       <div class="container" data-aos="fade-up">
@@ -98,4 +98,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default RecentBlog

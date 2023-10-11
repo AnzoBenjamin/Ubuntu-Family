@@ -1,5 +1,5 @@
 import React from "react";
-import { PlayCircle, Easel, Gem, GeoAlt, Command } from "react-bootstrap-icons";
+import { PlayCircle, Easel, Gem, GeoAlt, Command, UniversalAccess, Cash, PersonWorkspace, People } from "react-bootstrap-icons";
 
 const Hero = () => {
   return (
@@ -18,18 +18,11 @@ const Hero = () => {
               <a href="#about" class="btn-get-started">
                 Get Started
               </a>
-              <a
-                href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                className="glightbox btn-watch-video d-flex align-items-center"
-              >
-                <PlayCircle class="bi bi-play-circle"></PlayCircle>
-                <span>Watch Video</span>
-              </a>
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2">
             <img
-              src="/ubuntu-1.jpg"
+              src="/hero-img.svg"
               className="img-fluid"
               alt="Hero img"
               data-aos="zoom-out"
@@ -49,11 +42,11 @@ const Hero = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <Easel className="bi bi-easel"></Easel>
+                  <UniversalAccess className="bi bi-easel"></UniversalAccess>
                 </div>
                 <h4 className="title">
                   <a href="" className="stretched-link">
-                    Ubuntu ways
+                    Spiritual Engagement
                   </a>
                 </h4>
               </div>
@@ -66,11 +59,43 @@ const Hero = () => {
             >
               <div className="icon-box">
                 <div className="icon">
-                  <Gem className="bi bi-gem"></Gem>
+                  <Cash className="bi bi-gem"></Cash>
                 </div>
                 <h4 className="title">
                   <a href="" className="stretched-link">
-                    Ubuntu Kitchens
+                    Economic Empowerment
+                  </a>
+                </h4>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div className="icon-box">
+                <div className="icon">
+                  <PersonWorkspace className="bi bi-gem"></PersonWorkspace>
+                </div>
+                <h4 className="title">
+                  <a href="" className="stretched-link">
+                    Professional Development
+                  </a>
+                </h4>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div className="icon-box">
+                <div className="icon">
+                  <People className="bi bi-gem"></People>
+                </div>
+                <h4 className="title">
+                  <a href="" className="stretched-link">
+                    Community engagement
                   </a>
                 </h4>
               </div>

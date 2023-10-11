@@ -3,7 +3,8 @@ import Main from './Main'
 import About from './About'
 import Clients from './Clients'
 import Services from './Services'
-import Blog from './Blog'
+import RecentBlog from './RecentBlogs'
+import FAQs from './FAQs'
 
 const Home = () => {
   return (
@@ -11,7 +12,8 @@ const Home = () => {
         <About/>
         <Clients/>
         <Services/>
-        <Blog/>
+        <FAQs/>
+        <RecentBlog/>
     </Main>
   )
 }
