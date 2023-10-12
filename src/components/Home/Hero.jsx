@@ -1,5 +1,5 @@
 import React from "react";
-import { PlayCircle, Easel, Gem, GeoAlt, Command, UniversalAccess, Cash, PersonWorkspace, People } from "react-bootstrap-icons";
+import { UniversalAccess, Cash, PersonWorkspace, People } from "react-bootstrap-icons";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
               Burundian people to thrive.
             </p>
             <div className="d-flex justify-content-center justify-content-lg-start">
-              <a href="#about" class="btn-get-started">
+              <a href="#about" className="btn-get-started">
                 Get Started
               </a>
             </div>

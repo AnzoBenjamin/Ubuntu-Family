@@ -3,24 +3,24 @@ import { Twitter, Facebook, Instagram, Linkedin } from 'react-bootstrap-icons'
 
 const Footer = () => {
   return (    
-  <footer id="footer" class="footer">
+  <footer id="footer" className="footer">
 
-  <div class="container">
-    <div class="row gy-4">
-      <div class="col-lg-5 col-md-12 footer-info">
-        <a href="index.html" class="logo d-flex align-items-center">
+  <div className="container">
+    <div className="row gy-4">
+      <div className="col-lg-5 col-md-12 footer-info">
+        <a href="index.html" className="logo d-flex align-items-center">
           <span>Ubuntu Family</span>
         </a>
         <p>A global Burundian Organization in diaspora. It creates a platform to engage Burundians and organizations through spiritual fellowship, economic empowerment, professional development and community engagement.</p>
-        <div class="social-links d-flex mt-4">
-          <a href="#" class="twitter"><Twitter class="bi bi-twitter"></Twitter></a>
-          <a href="#" class="facebook"><Facebook class="bi bi-facebook"></Facebook></a>
-          <a href="#" class="instagram"><Instagram class="bi bi-instagram"></Instagram></a>
-          <a href="#" class="linkedin"><Linkedin class="bi bi-linkedin"></Linkedin></a>
+        <div className="social-links d-flex mt-4">
+          <a href="#" className="twitter"><Twitter className="bi bi-twitter"></Twitter></a>
+          <a href="#" className="facebook"><Facebook className="bi bi-facebook"></Facebook></a>
+          <a href="#" className="instagram"><Instagram className="bi bi-instagram"></Instagram></a>
+          <a href="#" className="linkedin"><Linkedin className="bi bi-linkedin"></Linkedin></a>
         </div>
       </div>
 
-      <div class="col-lg-2 col-6 footer-links">
+      <div className="col-lg-2 col-6 footer-links">
         <h4>Useful Links</h4>
         <ul>
           <li><a href="#ero">Home</a></li>
@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div class="col-lg-2 col-6 footer-links">
+      <div className="col-lg-2 col-6 footer-links">
         <h4>Our Services</h4>
         <ul>
           <li><a href="/ubuntu-ways">Ubuntu Ways</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+      <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
         <h4>Contact Us</h4>
         <p>
           Random street<br/>
@@ -55,8 +55,8 @@ const Footer = () => {
     </div>
   </div>
 
-  <div class="container mt-4">
-    <div class="copyright">
+  <div className="container mt-4">
+    <div className="copyright">
       &copy; Copyright <strong><span>Ubuntu</span></strong>. All Rights Reserved
     </div>
   </div>
