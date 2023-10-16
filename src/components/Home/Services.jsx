@@ -2,10 +2,8 @@ import React from "react";
 import {
   ArrowRight,
   Cash,
-  People,
-  PersonWorkspace,
-  UniversalAccess,
   CupHotFill,
+  PiggyBankFill,
 } from "react-bootstrap-icons";
 
 const Services = () => {
@@ -53,6 +51,23 @@ const Services = () => {
                 Catering our East African recipes with the TASTE OF NYUMBANI.
               </p>
               <a href="/ubuntu-kitchens" className="readmore stretched-link">
+                Read more{" "}
+                <ArrowRight className="bi bi-arrow-right"></ArrowRight>
+              </a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="service-item position-relative">
+              <div className="icon">
+                <PiggyBankFill className="bi bi-broadcast img-icon"></PiggyBankFill>
+              </div>
+              <h3>GROTEBBU-UMWITSA</h3>
+              <p>
+                Helps our members to bank and save, execute the projects with
+                trusted financial institutions. We aim to help the entrepreneurs
+                who are facing banks challenges in Burundi because of their
+                absence              </p>
+              <a href="/grotebbu-umwitsa" className="readmore stretched-link">
                 Read more{" "}
                 <ArrowRight className="bi bi-arrow-right"></ArrowRight>
               </a>

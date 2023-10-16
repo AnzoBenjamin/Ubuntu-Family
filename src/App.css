@@ -38,6 +38,17 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
 }
+.modal-content{
+  background-color: var(--color-primary) !important;
+  padding: 1.5rem 2rem;
+  color: var(--color-white) !important;
+  &>*{
+      border: none !important;
+  }
+}
+.btn-close{
+  color: var(--color-white) !important;
+}
 
 a {
   color: var(--color-primary);

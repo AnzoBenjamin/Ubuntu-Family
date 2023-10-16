@@ -24,25 +24,13 @@ const About = () => {
               alt=""
             />
             <p>
-              We dream to see the Burundian Community in Southern Africa
-              Countries living the meaningful live as the result of SELF
-              IDENTITY DISCOVERY which we find in from the fellowship and living
-              relationship with God through Jesus Christ our savior and Lord
+              UBUNTU FAMILY is a organization based in Capetown. Our goal is to
+              prepare Burundian people thrive, by combining and strengthening,
+              volunteering and social action to links to self identity
+              discovery, employment, education through different projects
+              executed by the Organizations within the UBUNTU FAMILY
             </p>
             <p>
-              The community-bases approach allows individuals and communities to
-              come together to identify the problem they wish to address,develop
-              collective solutions and choose their own means of action.
-              Community participation also enables community members to
-              influence and actively contribute to the development process and
-              to share it's benefits. UBUNTU FAMILY (UMUNTU N UWUNDI) is already
-              working on this through different activities (General and Mental
-              health Care project,Law clinic Project, social assistance project
-              and cultural space for the conservation of our rich Burundian
-              culture ) The desire outcome should be a united community that is
-              active and right minded in the development and implementation of
-              local policies and usea its skills and knowledge for the
-              development and peace of the host country.
             </p>
           </div>
           <div className="col-lg-6">
@@ -76,14 +64,10 @@ const About = () => {
 
               <div className="position-relative mt-4">
                 <img
-                  src="/ubuntu-3.jpg"
+                  src="/ubuntu-10.jpg"
                   className="img-fluid rounded-4"
                   alt=""
                 />
-                <a
-                  href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                  className="glightbox play-btn"
-                ></a>
               </div>
             </div>
           </div>
