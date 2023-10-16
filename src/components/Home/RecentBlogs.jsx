@@ -5,8 +5,8 @@ import BlogItem from "../Blog/BlogItem";
 const RecentBlog = () => {
   const [blogPosts, setBlogPosts] = useState([]);
   const client = createClient({
-    space: "51vi98ddlhse",
-    accessToken: "xf0wH14cPkdjgKUPCCW_166JEPzNs8cX_RGFobsDRy8",
+    space: import.meta.env.VITE_CONTENTFUL_SPACE,
+    accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN,
   });
   useEffect(() => {
     const getAllEntries = async () => {
@@ -33,19 +33,18 @@ const RecentBlog = () => {
 
         <div className="row gy-4">
           {blogPosts?.map((blog, index) => {
-            if(index<=3){
-
+            if (index <= 3) {
               return (
                 <BlogItem
-                key={blog.sys.id}
-                image={blog.fields.blogImage.fields.file.url}
-                title={blog.fields.blogTitle}
-                summary={blog.fields.blogSummary}
-                author={blog.fields.blogAuthor}
-                date={blog.fields.createdDate}
+                  key={blog.sys.id}
+                  image={blog.fields.blogImage.fields.file.url}
+                  title={blog.fields.blogTitle}
+                  summary={blog.fields.blogSummary}
+                  author={blog.fields.blogAuthor}
+                  date={blog.fields.createdDate}
                 />
-                );
-              }
+              );
+            }
           })}
         </div>
       </div>

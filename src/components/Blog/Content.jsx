@@ -5,8 +5,8 @@ import { createClient } from "contentful";
 const Content = () => {
   const [blogPosts, setBlogPosts] = useState([]);
   const client = createClient({
-    space: "51vi98ddlhse",
-    accessToken: "xf0wH14cPkdjgKUPCCW_166JEPzNs8cX_RGFobsDRy8",
+    space: import.meta.env.VITE_CONTENTFUL_SPACE,
+    accessToken: import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN,
   });
   useEffect(() => {
     const getAllEntries = async () => {
