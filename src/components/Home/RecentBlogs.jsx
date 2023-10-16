@@ -16,7 +16,6 @@ const RecentBlog = () => {
         });
       } catch (e) {}
     };
-
     getAllEntries();
   }, []);
   return (
